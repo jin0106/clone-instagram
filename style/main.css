@@ -154,6 +154,8 @@ main {
   border-radius: 4px;
   margin-top: 18px;
   color: white;
+  cursor: none;
+
 }
 
 .or {
@@ -301,11 +303,15 @@ footer a {
 
 .lan-select {
   appearance: none;
+  /* native design disabled */
   -webkit-appearance: none;
+  /* safari or Chrome */
   -moz-appearance: none;
+  /* Firefox */
   border: none;
   color: rgb(142, 142, 142);
   width: 70px;
   background-color: rgb(250, 250, 250);
   padding: 11px;
+  cursor: pointer;
 }

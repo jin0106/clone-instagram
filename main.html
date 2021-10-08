@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="./style/main.css">
   <title>Main</title>
 </head>
 <body>
@@ -29,9 +29,9 @@
           <h1><img src="./assets/main/logo.png" alt="insta-logo"></h1>
           <form action="#" class='login-form'>
             <div class="login-bar">
-              <input type="text" placeholder="Phone number, username, or email" minlength="6" maxlength="25">
-              <input type="password" placeholder="Password" minlength="5" maxlength="15">
-              <button>Log In</button>
+              <input class='login-id' type="text" placeholder="Phone number, username, or email" minlength="6" maxlength="25">
+              <input class='login-pw' type="password" placeholder="Password" minlength="5" maxlength="15">
+              <button class='login-btn'>Log In</button>
             </div>
             
             <div class="or">
@@ -146,5 +146,8 @@
     </div>
   </footer>
   </section>
+
+
+  <script src='./js/main.js'></script>
 </body>
 </html>
