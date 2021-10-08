@@ -1,0 +1,311 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+
+}
+
+body {
+  background-color: rgb(250, 250, 250);
+}
+
+main {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+}
+
+
+/* Images */
+
+.phone {
+  position: relative;
+  bottom: 20px;
+}
+
+
+#main-img {
+  position: absolute;
+  top: 80px;
+  left: 110px;
+  width: 240px;
+  height: 427px;
+  margin: 0 auto;
+}
+
+#main-img img {
+  width: 244px;
+  height: 434px;
+  position: absolute;
+  left: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  animation-name: FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-direction: normal;
+}
+
+
+@keyframes FadeInOut {
+  0% {
+    opacity: 1;
+  }
+
+  17% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  92% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+#main-img img:nth-of-type(1) {
+  animation-delay: 6s;
+}
+
+#main-img img:nth-of-type(2) {
+  animation-delay: 4s;
+}
+
+#main-img img:nth-of-type(3) {
+  animation-delay: 2s;
+}
+
+#main-img img:nth-of-type(4) {
+  animation-delay: 0;
+}
+
+/*  hide div if screen width lesser than 875px */
+
+@media screen and (max-width:874px) {
+  .phone-image {
+    display: none;
+  }
+}
+
+/* Logo & Login */
+
+.login-top {
+  width: 350px;
+  height: 606px;
+  margin: 14px 22px;
+}
+
+
+
+
+
+.login {
+  width: 100%;
+  height: 382px;
+  background-color: white;
+  padding: 10px 0;
+  border: solid 1px rgb(219, 219, 219);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login h1 img {
+  width: 180px;
+  height: 70px;
+  margin-top: 22px;
+}
+
+.login-bar>input:first-child {
+  margin-top: 12px;
+  margin-bottom: 6px;
+
+}
+
+.login-bar input {
+  display: block;
+  width: 268px;
+  height: 38px;
+  background-color: rgb(250, 250, 250);
+  padding: 9px 0 7px 8px;
+  border-radius: 2px;
+  border: solid 1px rgb(219, 219, 219);
+}
+
+.login-bar>button {
+  width: 268px;
+  height: 30px;
+  background-color: rgb(196, 223, 250);
+  border: none;
+  border-radius: 4px;
+  margin-top: 18px;
+  color: white;
+}
+
+.or {
+  display: flex;
+  align-items: center;
+}
+
+.or-content {
+  color: rgb(142, 142, 142);
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+}
+
+.gray-line {
+  position: relative;
+  top: 5px;
+  border: 0 solid black;
+  background-color: rgb(219, 219, 219);
+  width: 106.59px;
+  height: 1px;
+  margin: 10px;
+}
+
+
+.fb-pw {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fb-pw>a:first-child {
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #385185;
+  opacity: 0.9;
+}
+
+.fb-logo {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  position: relative;
+  top: 3px;
+  margin-top: 18px;
+}
+
+
+.fw-pw {
+  display: block;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 18px;
+  color: rgb(16, 55, 103);
+  opacity: 0.9;
+}
+
+/* Sign up */
+
+.sing-up {
+  height: 60px;
+  display: block;
+  background-color: #ffffff;
+  margin-top: 10px;
+  padding: 10px 0;
+  text-align: center;
+  border: solid 1px rgb(219, 219, 219);
+}
+
+.sing-up p {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+}
+
+.sign-up-a {
+  text-decoration: none;
+  color: rgb(58, 149, 239);
+  line-height: 18px;
+  font-weight: 600;
+}
+
+
+/* Get the app */
+
+.get-app {
+  height: 102px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.get-app a img {
+  margin-top: 18px;
+  width: 136px;
+  height: 40px;
+}
+
+
+/* Footer */
+
+footer {
+  height: 105px;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(var(--f52, 142, 142, 142), 1);
+}
+
+footer a {
+  text-decoration: none;
+  color: rgba(var(--f52, 142, 142, 142), 1);
+}
+
+.last-line {
+  display: flex;
+}
+
+
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.ft-first div a {
+  display: inline-block;
+  margin: 3px 8px;
+
+}
+
+.ft-first div {
+  text-align: center;
+}
+
+
+/* footer - language */
+
+.last-line span {
+  display: inline-block;
+  margin: 10px;
+}
+
+
+.lan-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  color: rgb(142, 142, 142);
+  width: 70px;
+  background-color: rgb(250, 250, 250);
+  padding: 11px;
+}
