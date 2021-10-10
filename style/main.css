@@ -6,11 +6,15 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
   background-color: rgb(250, 250, 250);
 }
 
+
+
 main {
-  margin-top: 32px;
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -137,6 +141,7 @@ main {
 }
 
 .login-bar input {
+  font-size: 13px;
   display: block;
   width: 268px;
   height: 38px;
@@ -155,10 +160,13 @@ main {
   margin-top: 18px;
   color: white;
   cursor: none;
-
+  font-weight: 600;
+  font-size: 13px;
 }
 
 .or {
+  margin-top: 10px;
+
   display: flex;
   align-items: center;
 }
@@ -168,6 +176,8 @@ main {
   text-align: center;
   display: block;
   margin-top: 10px;
+  font-size: 13px;
+  font-weight: 600;
 }
 
 .gray-line {
@@ -263,11 +273,13 @@ footer {
   font-size: 12px;
   line-height: 16px;
   color: rgba(var(--f52, 142, 142, 142), 1);
+  margin-top: 70px;
 }
 
 footer a {
   text-decoration: none;
   color: rgba(var(--f52, 142, 142, 142), 1);
+
 }
 
 .last-line {
