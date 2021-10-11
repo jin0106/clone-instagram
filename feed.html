@@ -44,7 +44,7 @@
             <li class='story-li'>
               <div id='story-prof' class="story-prof">
                 <div class="story-profile">
-                  <img class='story-img' src="./assets/feed/story/iu.jpg" alt="profile-pic">
+                  <!-- <img class='story-img' src="./assets/feed/story/leo.jpg" alt="profile-pic"> -->
                 </div>
                 <div class="story-id">
                   <span>dlawlrma</span>
@@ -133,7 +133,7 @@
           <article>
             <header>
               <div class="profile-of-article">
-                  <img class='feed-profile-img' src="./assets/feed/story/iu.jpg" alt="profile pic">
+                  <img class='feed-profile-img' src="./assets/feed/story/leo.jpg" alt="profile pic">
                   <div class="id-locations">
                     <span> <a class='user-id' href="#">leomessi</a></span>
                     <span class='locations'>Comp Nou</span>
@@ -174,8 +174,64 @@
               <div class="input-comment">
                 <form action="#" class='comments-bar'>
                   <button class='emoji-btn'><img class='emoji-img' src="./assets/feed/emoji.png" alt="emoji"></button>
-                  <input class='input-comments' type="text" placeholder="Add a comment">
-                  <button class='post-btn'>Post</button>
+                  <input class='input-comments' type="text" placeholder="Add a comment" minlength="1" >
+                  <button class='post-btn' >Post</button>
+                </form>
+              </div>
+                  
+            </div>
+          </article>
+        </div>
+        <div class="feed">
+          <article>
+            <header>
+              <div class="profile-of-article">
+                  <img class='feed-profile-img' src="./assets/feed/kaia.jpg" alt="profile pic">
+                  <div class="id-locations">
+                    <span> <a class='user-id' href="#">kaiagerber
+                      </a></span>
+                  </div>
+                  <button class='profile-button'><img class='icon-more' src="./assets/feed/more.png" alt="more-options"></button>
+              </div>
+              
+            </header>
+            <div class="main-images">
+              <img class='feed-images' src="./assets/feed/kaia.jpg" alt="">
+            </div>
+            <div class="icon-reactions">
+              <div class="icons-left">
+                <img src="./assets/feed/heart.png" alt="liked-button">
+                <img src="./assets/feed/comment.png" alt="see-comments-button">
+                <img src="./assets/feed/dm.png" alt="share-button">
+              </div>
+              <img src="./assets/feed/bookmark.png" alt="bookmark-button">
+            </div>
+            <div class="reactions">
+              <div class="react">
+                <span class='likes'>144,194 likes</span>
+                <div class="description">
+                  <span><a class='user-id' href="#">kaiagerber</a> alex… coming soon</span>
+                </div>
+                <div class="comments">
+                  <span><a href="#">View all 123 comments</a></span>
+                  <span><a class='user-id' href="#">
+                    meghanroc</a> 👏👏</span>
+                  <span><a class='user-id' href="#">
+                    esther.mcgre</a> 
+                    🙌🙌🙌</span>
+                </div>
+                <div class="updated">
+                  <span>October 2</span>
+                </div>
+              
+            </div>
+            <!-- Inputcomment -->
+            <div class="add-comment">
+              <div class="input-comment">
+                <form action="#" class='comments-bar'>
+                  <button class='emoji-btn'><img class='emoji-img' src="./assets/feed/emoji.png" alt="emoji"></button>
+                  <input class='input-comments' type="text" placeholder="Add a comment" minlength="1" >
+                  <button class='post-btn' >Post</button>
                 </form>
               </div>
                   
@@ -183,19 +239,163 @@
           </article>
         </div>
       </div>
-    </section>
-<!--  -->
-    <!-- <aside>
-      <div class="profile"></div>
-      <div class="suggestions"></div>
-      <footer></footer>
-    </aside>
-  </main> --> 
 
-  
-  <!-- 1. navbar
-  2.Feed
-  3.aside(footer) -->
+      <div class="aside">
+        <!-- Suggestions For You list -->
+        <div class="current-user">
+          <div class="profile-img">
+            <a href=""#><img class='user-img' src="./assets/feed/profile.png" alt="user-img"></a>
+            <a class='user-id' href="#">wo__o.jin</a>
+            <button class='switch'>Switch</button>
+          </div>
+        </div>
+        <div class="suggestions">
+          <div class="suggestions-row">
+              <span class='suggestion-for-you'>Suggestions For You</span>
+            <a class='see-all' href="#">See All</a>
+          </div>
+          <div class="suggestion-list">
+            <div class='suggestions-list-1'>
+              <div class='suggestions-list-img'>
+                <img class='suggestions-profile-img' src="./assets/feed/profile.png" alt="profile-img">
+              </div>
+              <div class='suggestion-user-info'>
+                <div class='user-id'>sonjemin1234</div>
+                <div class='suggest-reason'>Suggested for you</div>
+              </div>
+              <div class='suggest-btn'>
+                <button class='follow-btn'>Follow</button>
+              </div>
+            </div>
+            <div class='suggestions-list-1'>
+              <div class='suggestions-list-img'>
+                <img class='suggestions-profile-img' src="./assets/feed/profile.png" alt="profile-img">
+              </div>
+              <div class='suggestion-user-info'>
+                <div class='user-id'>car_stagram</div>
+                <div class='suggest-reason'>Suggested for you</div>
+              </div>
+              <div class='suggest-btn'>
+                <button class='follow-btn'>Follow</button>
+              </div>
+            </div>
+            <div class='suggestions-list-1'>
+              <div class='suggestions-list-img'>
+                <img class='suggestions-profile-img' src="./assets/feed/profile.png" alt="profile-img">
+              </div>
+              <div class='suggestion-user-info'>
+                <div class='user-id'>hist_yeajin</div>
+                <div class='suggest-reason'>Followed by so_hee + 1 more</div>
+              </div>
+              <div class='suggest-btn'>
+                <button class='follow-btn'>Follow</button>
+              </div>
+            </div>
+            <div class='suggestions-list-1'>
+              <div class='suggestions-list-img'>
+                <img class='suggestions-profile-img' src="./assets/feed/profile.png" alt="profile-img">
+              </div>
+              <div class='suggestion-user-info'>
+                <div class='user-id'>its.quinn</div>
+                <div class='suggest-reason'>New to Instagram</div>
+              </div>
+              <div class='suggest-btn'>
+                <button class='follow-btn'>Follow</button>
+              </div>
+            </div>
+            <div class='suggestions-list-1'>
+              <div class='suggestions-list-img'>
+                <img class='suggestions-profile-img' src="./assets/feed/profile.png" alt="profile-img">
+              </div>
+              <div class='suggestion-user-info'>
+                <div class='user-id'>kaplanseattle</div>
+                <div class='suggest-reason'>Followed by shintaro + 11 more</div>
+              </div>
+              <div class='suggest-btn'>
+                <button class='follow-btn'>Follow</button>
+              </div>
+            </div>
+            
+            
+          </div>
+        </div>
+        <!--  Footer -->
+        <div class="footer">
+          <div class="ft ft-1">
+            <a target='_blank' href="https://about.instagram.com/">About</a>
+            <a target='_blank' href="https://about.instagram.com/blog/">Blog</a>
+            <a target='_blank' href="https://www.instagram.com/about/jobs/">Jobs</a>
+            <a target='_blank' href="https://developers.facebook.com/docs/instagram">API</a>
+            <a target='_blank' href="https://www.instagram.com/legal/privacy/">Privacy</a>
+            <a target='_blank' href="https://www.instagram.com/legal/terms/">Terms</a>
+          </div>
+          <div class="ft">
+            <a target='_blank' href="https://about.instagram.com/">Locations</a>
+            <a target='_blank' href="https://about.instagram.com/blog/">Top Accounts</a>
+            <a target='_blank' href="https://www.instagram.com/about/jobs/">Hashtags</a>
+            <span class=language>
+              Language
+              <select class='lan-select' value='Language' aria-label="switch display language" name="language" id="language">
+              <option value="af">Afrikaans</option>
+              <option value="cs">Čeština</option>
+              <option value="da">Dansk</option>
+              <option value="de">Deutsch</option>
+              <option value="el">Ελληνικά</option>
+              <option value="en">English</option>
+              <option value="en-gb">English (UK)</option>
+              <option value="es">Español (España)</option>
+              <option value="es-la">Español</option>
+              <option value="fi">Suomi</option>
+              <option value="fr">Français</option>
+              <option value="id">Bahasa Indonesia</option>
+              <option value="it">Italiano</option>
+              <option value="ja">日本語</option>
+              <option value="ko">한국어</option>
+              <option value="ms">Bahasa Melayu</option>
+              <option value="nb">Norsk</option>
+              <option value="nl">Nederlands</option>
+              <option value="pl">Polski</option>
+              <option value="pt-br">Português (Brasil)</option>
+              <option value="pt">Português (Portugal)</option>
+              <option value="ru">Русский</option>
+              <option value="sv">Svenska</option>
+              <option value="th">ภาษาไทย</option>
+              <option value="tl">Filipino</option>
+              <option value="tr">Türkçe</option>
+              <option value="zh-cn">中文(简体)</option>
+              <option value="zh-tw">中文(台灣)</option>
+              <option value="bn">বাংলা</option>
+              <option value="gu">ગુજરાતી</option>
+              <option value="hi">हिन्दी</option>
+              <option value="hr">Hrvatski</option>
+              <option value="hu">Magyar</option>
+              <option value="kn">ಕನ್ನಡ</option>
+              <option value="ml">മലയാളം</option>
+              <option value="mr">मराठी</option>
+              <option value="ne">नेपाली</option>
+              <option value="pa">ਪੰਜਾਬੀ</option>
+              <option value="si">සිංහල</option>
+              <option value="sk">Slovenčina</option>
+              <option value="ta">தமிழ்</option>
+              <option value="te">తెలుగు</option>
+              <option value="vi">Tiếng Việt</option>
+              <option value="zh-hk">中文(香港)</option>
+              <option value="bg">Български</option>
+              <option value="fr-ca">Français (Canada)</option>
+              <option value="ro">Română</option>
+              <option value="sr">Српски</option>
+              <option value="uk">Українська</option>
+            </select> 
+          </span>
+          </div>
+
+          <div class="company">
+
+          </div>
+        </div>
+      </div>
+    </section>
+
 
   <script src="./js/feed.js"></script>
 </body>

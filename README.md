@@ -32,7 +32,7 @@
   왜 사람들이 만들어보면서 공부를 하라고 했는지 이유를 알게 된 하루. 책만 달달 읽기보다는 확실히 만들다가 모르는 부분은 스스로 찾아가며 하나하나 만드는게 공부가 더 잘되는것 같다. 아직 HTML의 전체적인 구조부터 margin 등이 css 기본적인것들조차 헷갈리는게 많았다. 계속 만들어보면서 몰랐던 부분들은 확실히 정리를 하며 숙지를 해야겠다.
   그리고 만들고 싶은게 너무나도 많은데 자바 스크립트르 몰라 못만들고있다.. 자바스크립트 공부해야지
 
-![main](README.assets/main.gif)
+<img src="README.assets/main.gif" alt="main" style="zoom:67%;" />
 
 
 
@@ -48,11 +48,22 @@
   
   
   
-  
-  
-  
-  
-  ![feed](README.assets/feed.gif)
+  <img src="README.assets/feed.gif" alt="feed" style="zoom: 67%;" />
   
   
 
+* 211011
+
+  <strong>aside & feed 추가</strong>
+
+  aside를 추가 하고 width값이 1000px 보다 작을시 aside를 보이지 않도록 하고 동시에 feed를 가운데에 위치하게 설정.
+
+  제일 오른쪽에 위치했던 버튼들을 `position: relative` 를 사용하여 설정했었는데 div의 크기를 변경한다음에 flex로 더 쉽게 설정하였다.
+
+  그리고 feed사진들을 하나의 사이즈로 고정 하였던 것을 원래의 사진 크기에 맞게 업로드 되도록 변경
+
+  스토리에 테두리 라인을 구현하는법을 아직 모르겠다. 이거에 대해서 조금더 찾아봐야 할 거같다.
+
+  그리고 진짜 인스타페이지와 위치가 조금씩 다른것들이 많다. 이런 세세한 부분에도 좀 더 신경을 써야할거 같다
+
+  ![add feed&aside](README.assets/add feed&aside.gif)
