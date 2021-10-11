@@ -68,4 +68,4 @@
 
   
 
-  ![add feed&aside](README.assets/add feedaside.gif)
+  ![add feed&aside](README.assets/add_feedaside.gif)
