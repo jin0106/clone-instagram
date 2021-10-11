@@ -66,4 +66,6 @@
 
   그리고 진짜 인스타페이지와 위치가 조금씩 다른것들이 많다. 이런 세세한 부분에도 좀 더 신경을 써야할거 같다
 
-  ![add feed&aside](README.assets/add feed&aside.gif)
+  
+
+  ![add feed&aside](README.assets/add feedaside.gif)
