@@ -69,3 +69,21 @@
   
 
   ![add feed&aside](README.assets/add_feedaside.gif)
+
+
+
+* 211012
+
+  <strong>profile 페이지 구현 </strong>
+
+  반응형을 구현하지 못했는데 Bootstrap을 안쓰고 편하게 하는 방법이 있을까 과연.. 이 부분은 내일 고민하도록 해야겠다.
+
+  JS배우면 태그쪽에 버튼들 누를때 글자 색상과 border-top-color 바뀌는것 적용하기
+
+  확실히 할 수록 소요 시간도 줄어들고, 좀 더 능숙해진것 같은 기분이다.
+
+  
+
+  ![profile](README.assets/profile.gif)
+
+  
